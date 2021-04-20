@@ -40,9 +40,9 @@ class _HomeState extends State<Home> {
           (proporcao < 0.7) ? 'Abasteça com Álcool' : 'Abasteça com Gasolina';
     });
   }
-  // a partir daqui vamos criar nossa interface
+
   @override
-  Widget build(BuildContext context) { // build e o contrutor da interface 
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text(
